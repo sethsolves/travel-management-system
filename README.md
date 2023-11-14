@@ -1,11 +1,8 @@
-# ap-hw2-
 # Travel Management System
 
 This is a simple Java console application for managing flights and hotel reservations in a travel system. The program allows users to search for available flights and hotels, book flights and hotels, and cancel reservations.
 
 ## Features
-
-- **Graph Class**: Represents a simple graph structure using adjacency lists. The graph class allows users to add vertices, add edges, remove edges, and print the graph.
 
 - **Flight Class**: Represents flight information, including flight number, passenger name, origin, destination, date, number of passengers, price, and confirmation number. The class provides methods to set and get these attributes.
 
@@ -20,14 +17,9 @@ This is a simple Java console application for managing flights and hotel reserva
 1. Clone the repository to your local machine.
 2. Open the project in your preferred Java development environment (e.g., IntelliJ, Eclipse).
 3. Run the `Main` class to execute the travel application.
-4. Follow the on-screen prompts to interact with the application. You can enter commands to add vertices and edges to the graph, search for flights and hotels, book flights and hotels, and cancel reservations.
+4. Follow the on-screen prompts to interact with the application. You can enter commands to search for flights and hotels, book flights and hotels, and cancel reservations.
 
 ## Commands
-
-- `addVertex <vertex>`: Adds a vertex to the graph.
-- `addEdge <source> <destination>`: Adds an edge between the specified source and destination vertices in the graph.
-- `removeEdge <source> <destination>`: Removes the edge between the specified source and destination vertices in the graph.
-- `printGraph`: Prints the current state of the graph.
 
 - `searchFlights <origin> <destination> <date> <numPassengers>`: Searches for available flights based on the specified criteria.
 - `bookFlight <flightNumber> <passengerName> <origin> <destination> <date> <numPassengers> <price>`: Books a flight and generates a confirmation number.
@@ -53,7 +45,7 @@ public class Main {
 
 ## Author
 
-[Your Name]
+Sethsolves
 
 ## License
 
